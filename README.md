@@ -4,3 +4,6 @@
 * Java 
 * React Native
 * MongoDB 
+
+## Project status
+* in development
