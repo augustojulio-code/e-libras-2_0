@@ -6,10 +6,6 @@
     <img src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" width="100px" height="100px"/>
     <img src="https://www.svgrepo.com/show/353722/expo.svg" width="100px" height="100px"/> 
 </p>
-## Stack 
-* Java 
-* React Native
-* MongoDB 
 
 ## Project status
 * in development
