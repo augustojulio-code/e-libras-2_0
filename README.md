@@ -7,5 +7,10 @@
     <img src="https://www.svgrepo.com/show/353722/expo.svg" width="100px" height="100px"/> 
 </p>
 
+## System architecture
+<p align="center">
+    <img src="https://github.com/augustojulio-code/imagens_arquiteturas_readme/blob/master/arquiteturaProjectBeer.jpeg" width="600px" height="400px"/>
+</p>
+
 ## Project status
 * in development
