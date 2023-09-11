@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 @SpringBootTest
@@ -27,8 +26,9 @@ class ApielibrasApplicationTests {
 
 	@Test
 	public void apitest() {
+		assertEquals(ResponseEntity.ok().body(null), ResponseEntity.ok().build());
 
-		// System.out.println(ResponseEntity.ok().build());
+		// System.out.println(ResponseEntity.ok().body(null));
 	}
 
 }
