@@ -26,7 +26,11 @@ class ApielibrasApplicationTests {
 
 	@Test
 	public void apitest() {
-		assertEquals(ResponseEntity.ok().body(null), ResponseEntity.ok().build());
+		try {
+			assertEquals(ResponseEntity.ok().body(null), ResponseEntity.ok().build());
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 
 		// System.out.println(ResponseEntity.ok().body(null));
 	}

@@ -11,15 +11,17 @@ public class User {
     private String name;
     private String password;
     private String email;
+    private Score score;
 
     public User() {
     }
 
-    public User(String id, String name, String password, String email) {
+    public User(String id, String name, String password, String email, Score score) {
         this.id = id;
         this.name = name;
         this.password = password;
         this.email = email;
+        this.score = score;
     }
 
     public String getId() {
@@ -52,6 +54,14 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Score getScore() {
+        return score;
+    }
+
+    public void setScore(Score score) {
+        this.score = score;
     }
 
     @Override
