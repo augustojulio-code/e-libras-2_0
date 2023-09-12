@@ -21,12 +21,6 @@ import br.com.elibras.apielibras.services.ScoreService;
 @RequestMapping("/score")
 public class ScoreController {
 
-    /*
-     * @GetMapping
-     * public String testes() {
-     * return "Olá imbecil";
-     * }
-     */
     @Autowired
     private ScoreService service;
 

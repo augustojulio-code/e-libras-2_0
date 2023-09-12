@@ -24,12 +24,6 @@ public class UserController {
     @Autowired
     private UserService service;
 
-    /*
-     * @GetMapping
-     * public String teste() {
-     * return "Olá imbecil";
-     * }
-     */
     @GetMapping
     public ResponseEntity<List<User>> findAll() {
         List<User> list = service.findAll();
