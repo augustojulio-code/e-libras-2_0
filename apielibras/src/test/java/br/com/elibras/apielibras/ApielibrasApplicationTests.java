@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
 
+import br.com.elibras.apielibras.domain.Score;
+import br.com.elibras.apielibras.domain.User;
+
 @SpringBootTest
 class ApielibrasApplicationTests {
 
@@ -35,9 +38,11 @@ class ApielibrasApplicationTests {
 		// System.out.println(ResponseEntity.ok().body(null));
 	}
 
+	@Test
 	public void testesemaisteste() {
-
-		assertEquals("", "");
+		Score score = new Score("12654", "teste", "teste");
+		User user = new User("teste", "teste", "teste", "teste", score);
+		assertEquals("teste", user.getId());
 	}
 
 }
